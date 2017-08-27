@@ -1,0 +1,13 @@
+<h1>Events</h1>
+<hr>
+<ul class="media-list">
+    <li class="media" ng-repeat="event in items | orderBy:'startdate'">
+
+        <a class="pull-left" href="#/events/{{event.id}}"></a>
+
+        <div class="media-body">
+            <h4 class="media-heading"><a href="#/events/{{event.id}}">{{event.title}}</a></h4>
+            {{event.description}}
+        </div>
+    </li>
+</ul>
