@@ -27,6 +27,5 @@ $body=<<<EOT
 </div>
 </div>
 EOT;
-include("../base.php");
-
+require_once($_SERVER['DOCUMENT_ROOT']."/bin/base.php");
 ?>

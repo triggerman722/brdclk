@@ -29,7 +29,7 @@ $body=<<<EOT
  </div>
 
 EOT;
-include("../../base.php");
+include($rd."base.php");
 
 
 

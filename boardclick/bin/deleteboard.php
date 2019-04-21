@@ -1,9 +1,9 @@
 <?php
-    if($_SERVER['REQUEST_METHOD'] === 'DELETE' || (isset($_REQUEST['_method']) && $_REQUEST['_method'] === 'delete')) {
-        $directory = getcwd();
-        delTree($directory);
-        header("Location:/");
-    }
+if($_SERVER['REQUEST_METHOD'] === 'DELETE' || (isset($_REQUEST['_method']) && $_REQUEST['_method'] === 'delete')) {
+    //the ld variable comes from the calling file
+    delTree($ld);
+    header("Location:/");
+}
 
 function delTree($dir) { 
    $files = array_diff(scandir($dir), array('.','..')); 
