@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
  <div class="row">
  <div class="col-3">
   <div class="card">
-   <img class="card-img-top" src="{}">
+   <img class="card-img-top" src="{$board['photo_url']}">
    <div class="card-body">
     <img src="{}" class="rounded-circle" style="margin-top:-50px;width:64px;">
     <h5 class="card-title">{$board['name']}</h5>
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Options</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Proposals</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Resolutions</a>
-  <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-gear"></i> Settings</a>
+  <a href="edit/" class="list-group-item list-group-item-action"><i class="fa fa-gear"></i> Settings</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Votes</a>
 </div>
  </div>
