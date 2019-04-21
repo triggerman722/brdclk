@@ -35,6 +35,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   </div>
 </form>
 
+<div class="card border-danger">
+  <div class="card-body">
+      <a href="../delete" class="btn btn-danger">Delete</a>
+  </div>
+</div>
 
 </div>
  <div class="col-3">

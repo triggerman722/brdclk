@@ -40,10 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     <span aria-hidden="true">&times;</span>
   </button>
    </div>
-<form method="POST">
-<input type="hidden" name="_method" value="delete" >
-<input type="submit" class="btn btn-danger" value="Delete">
-</form>
  </div>
  </div>
 

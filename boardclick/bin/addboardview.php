@@ -1,4 +1,5 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 $title="Add a new Board";
 $body=<<<EOT
  <div class="row">
@@ -39,5 +40,6 @@ $body=<<<EOT
  </div>
  </div>
 EOT;
+}
 require_once($_SERVER['DOCUMENT_ROOT']."/bin/base.php");
 ?>
