@@ -12,13 +12,9 @@ if ($board['isprivate']===true) {
         die();
     }
 }
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $title="Welcome to the ".$board['name']." home!";
-    include($rd."viewboard.php");
-} else {
-    include($rd."deleteboard.php");
-    die();
-}
+
+include($rd."viewboard.php");
+include($rd."deleteboard.php");
 
 function isDirectory($directors, $username) {
    foreach ($directors as $key => $value) {
