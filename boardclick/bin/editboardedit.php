@@ -3,7 +3,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $board = json_decode(file_get_contents($ld.'/board.json'), true);
     if (is_uploaded_file($_FILES['photo']['tmp_name'])) {
         move_uploaded_file($_FILES['photo']['tmp_name'], $ld."/".basename($_FILES['photo']['name']));
-        $board["photo_url"] = basename($_FILES['photo']['name']);
+        $board["photo_url"] = "/boards/".basename($ld)."/".basename($_FILES['photo']['name']);
     }
     $board['name'] = @$_REQUEST['boardname'];
     $board['description'] = @$_REQUEST['boarddescription'];
