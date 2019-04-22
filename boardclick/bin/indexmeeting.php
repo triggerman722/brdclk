@@ -1,6 +1,9 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
 $ld = getcwd();
+$meetingid = basename($ld);
+$boardid = basename(dirname($ld, 2));
+
 
 require_once($rd."session_mgmt.php");
 

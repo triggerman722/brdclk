@@ -29,8 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   </div>
 
   <div class="form-group row">
-    <div class="col-sm-10">
+    <div class="col-sm-12 d-flex justify-content-between ">
       <button type="submit" class="btn btn-primary">Edit</button>
+      <button onclick="window.history.back()" class="btn btn-secondary ml-1">Cancel</button>
     </div>
   </div>
 </form>

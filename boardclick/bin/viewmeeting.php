@@ -12,7 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
    </div>
   </div>
 <div class="list-group mt-3">
-  <a href="edit/" class="list-group-item list-group-item-action"><i class="fa fa-gear"></i> Settings</a>
+  <a href="/boards/{$boardid}/meetings/{$meetingid}/agenda/" class="list-group-item list-group-item-action"><i class="fa fa-file-o"></i> Agenda</a>
+  <a href="/boards/{$boardid}/meetings/{$meetingid}/edit/" class="list-group-item list-group-item-action"><i class="fa fa-gear"></i> Settings</a>
 </div>
  </div>
  <div class="col-6">
