@@ -3,7 +3,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $meeting = json_decode(file_get_contents($ld.'/meeting.json'), true);
     if (is_uploaded_file($_FILES['photo']['tmp_name'])) {
         move_uploaded_file($_FILES['photo']['tmp_name'], $ld."/".basename($_FILES['photo']['name']));
-        $board["photo_url"] = basename($_FILES['photo']['name']);
+        $meeting["photo_url"] = basename($_FILES['photo']['name']);
     }
     $meeting['name'] = @$_REQUEST['name'];
     $meeting['description'] = @$_REQUEST['description'];

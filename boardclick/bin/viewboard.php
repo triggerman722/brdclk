@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Compensation</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Directors</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Dividends</a>
-  <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Events</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Executives</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Goals</a>
+  <a href="meetings/" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Meetings</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Options</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Proposals</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Resolutions</a>
