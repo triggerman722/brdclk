@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-$title="Add a new item";
+$title="Add a new Meeting";
 $body=<<<EOT
  <div class="row">
  <div class="col-3">

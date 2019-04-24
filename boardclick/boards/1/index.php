@@ -1,4 +1,4 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT']."/bin/indexboard.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/bin/board/index.php");
 ?>
 

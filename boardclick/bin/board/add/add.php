@@ -8,7 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $board['name'] = $_REQUEST['name'];
     $board['description'] = $_REQUEST['description'];
     $board['isprivate'] = false;
-    $board['photo_url'] = "rain.jpg";
+    $board['photo_url'] = "/boards/".$boardid."/rain.jpg"
+
     file_put_contents($ld."/".$nextdir."/board.json", json_encode($board));
     $directors = array();
     $directors[] = $username;

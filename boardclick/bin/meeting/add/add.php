@@ -1,18 +1,20 @@
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nextdir=getNextDir($ld);
+    recurse_copy($ld."/template/", $ld."/".$nextdir);
 
-    $item = array();
-    $item['name'] = $_REQUEST['name'];
-    $item['description'] = $_REQUEST['description'];
-    $item['isprivate'] = false;
-    file_put_contents($ld."/"."/item.json", json_encode($item));
+    $meeting = array();
+    $meeting['name'] = $_REQUEST['name'];
+    $meeting['description'] = $_REQUEST['description'];
+    $meeting['isprivate'] = false;
+    $meeting['photo_url'] = "/boards/".$boardid."/meetings/".$nextdir."/rain.jpg";
+    file_put_contents($ld."/".$nextdir."/meeting.json", json_encode($meeting));
     $directors = array();
     $directors[] = $username;
-    file_put_contents($ld."/directors.json", json_encode($directors));
+    file_put_contents($ld."/".$nextdir."/directors.json", json_encode($directors));
 
-    header('Location: ../');
+    header('Location: ../meetings/'.$nextdir);
 }
-
 
 ?>

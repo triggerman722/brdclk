@@ -1,8 +1,12 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
-$ld = getcwd();
-
 require_once($rd."session_mgmt.php");
+require_once($rd."isdirector.php");
+$ld = getcwd();
+$meetingid = basename($ld);
+$boardid = basename(dirname($ld, 2));
+
+$meeting = json_decode(file_get_contents($ld.'/meeting.json'), true);
 
 $directors = json_decode(file_get_contents($ld.'/directors.json'), true);
 if (!isDirector($directors, $username)) {
@@ -10,15 +14,6 @@ if (!isDirector($directors, $username)) {
     die();
 }
 
-include(dir(__FILE__)."/view.php");
-
-function isDirector($directors, $username) {
-   foreach ($directors as $key => $value) {
-       if ($value===$username) {
-           return true;
-       }
-   }
-   return false;
-}
+include(dirname(__FILE__)."/view.php");
 
 ?>

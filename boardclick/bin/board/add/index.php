@@ -2,6 +2,7 @@
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
 chdir('..');
 $ld = getcwd();
+$boardid = basename($ld);
 
 require_once($rd."session_mgmt.php");
 /* Won't have directors yet. 
