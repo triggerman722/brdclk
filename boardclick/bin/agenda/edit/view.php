@@ -11,13 +11,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   <div class="form-group row">
     <label for="inputName" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputName" name="name" value="{$item['name']}">
+      <input type="text" class="form-control" id="inputName" name="name" value="{$agenda['name']}">
     </div>
   </div>
   <div class="form-group row">
     <label for="inputDescription" class="col-sm-2 col-form-label">Description</label>
     <div class="col-sm-10">
-      <textarea class="form-control" id="inputDescription" name="description" rows="3">{$item['description']}</textarea>
+      <textarea class="form-control" id="inputDescription" name="description" rows="3">{$agenda['description']}</textarea>
     </div>
   </div>
   <div class="form-group row">

@@ -3,8 +3,10 @@ $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
 require_once($rd."util/session_mgmt.php");
 require_once($rd."util/isdirector.php");
 require_once($rd."util/deltree.php");
-chdir('..');
+chdir('../../');
 $ld = getcwd();
+$meetingid=basename($ld);
+$boardid = basename(dirname($ld, 2));
 
 $directors = json_decode(file_get_contents($ld.'/directors.json'), true);
 
