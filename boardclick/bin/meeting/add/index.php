@@ -1,9 +1,9 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
-require_once($rd."session_mgmt.php");
-require_once($rd."getnextdir.php");
-require_once($rd."recursecopy.php");
-require_once($rd."isdirector.php");
+require_once($rd."util/session_mgmt.php");
+require_once($rd."util/getnextdir.php");
+require_once($rd."util/recursecopy.php");
+require_once($rd."util/isdirector.php");
 
 chdir('..');
 $ld = getcwd();

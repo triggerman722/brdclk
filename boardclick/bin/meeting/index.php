@@ -1,7 +1,7 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
-require_once($rd."session_mgmt.php");
-require_once($rd."isdirector.php");
+require_once($rd."util/session_mgmt.php");
+require_once($rd."util/isdirector.php");
 $ld = getcwd();
 $meetingid = basename($ld);
 $boardid = basename(dirname($ld, 2));

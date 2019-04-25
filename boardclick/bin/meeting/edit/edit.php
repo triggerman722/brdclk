@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     $item['name'] = @$_REQUEST['name'];
     $item['description'] = @$_REQUEST['description'];
-    file_put_contents($ld.'/meeting.json', json_encode($meeting));
+    file_put_contents($ld.'/meeting.json', json_encode($item));
     header("Location:../");
 }
 

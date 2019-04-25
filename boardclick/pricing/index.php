@@ -56,5 +56,5 @@ $body=<<<EOT
       </div>
 
 EOT;
-require_once($_SERVER['DOCUMENT_ROOT']."/bin/base.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/bin/util/base.php");
 ?>

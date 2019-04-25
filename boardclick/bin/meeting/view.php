@@ -24,6 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
  </div>
 
 EOT;
-include($rd."base.php");
+include($rd."util/base.php");
 }
 ?>
