@@ -5,12 +5,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     recurse_copy($ld."/template/", $ld."/".$nextdir);
 
     $board = array();
+    $board['board_id'] = $nextdir;
     $board['name'] = $_REQUEST['name'];
     $board['description'] = $_REQUEST['description'];
     $board['isprivate'] = false;
     $board['photo_url'] = "/boards/".$nextdir."/rain.jpg";
 
     file_put_contents($ld."/".$nextdir."/board.json", json_encode($board));
+
     $directors = array();
     $directors[] = $username;
     file_put_contents($ld."/".$nextdir."/directors.json", json_encode($directors));

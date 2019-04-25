@@ -5,6 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     recurse_copy($ld."/template/", $ld."/".$nextdir);
 
     $meeting = array();
+    $meeting['meeting_id'] = $nextdir;
+    $meeting['board_id'] = $boardid;
     $meeting['name'] = $_REQUEST['name'];
     $meeting['description'] = $_REQUEST['description'];
     $meeting['isprivate'] = false;
