@@ -5,6 +5,8 @@ require_once($rd."util/isdirector.php");
 require_once($rd."util/deltree.php");
 chdir('..');
 $ld = getcwd();
+$meetingid = basename($ld);
+$boardid = basename(dirname($ld, 2));
 
 $directors = json_decode(file_get_contents($ld.'/directors.json'), true);
 

@@ -1,5 +1,6 @@
 <?php
-
+$rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
+require_once($rd."util/session_basic.php");
 $title="Pricing";
 $body=<<<EOT
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">

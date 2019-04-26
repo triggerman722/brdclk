@@ -7,20 +7,47 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
     <title><?php echo $title; ?></title>
   </head>
   <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info text-white" style="height:50px">
-      <h5 class="my-0 mr-md-auto">Boardkit</h5>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-white" href="#">Features</a>
-        <a class="p-2 text-white" href="#">Enterprise</a>
-        <a class="p-2 text-white" href="#">Support</a>
-        <a class="p-2 text-white" href="/pricing">Pricing</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="/">Boardkit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/boards">Boards</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boards">Enterprise</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boards">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+            </ul>
+<?php
+if (!isset($username)) {
+?>
+                <a class="btn btn-outline-light mr-2" href="/join">Sign up</a>
+                <a class="btn btn-outline-light" href="/login">Login</a>
+<?php
+} else {
+?>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<?php echo $username; ?>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="/logout">Logout</a>
+  </div>
+</div>
+<?php
+}
+?>
+            </ul>
+        </div>
       </nav>
-      <a class="btn btn-outline-light text-light" href="/join">Sign up</a>
-    </div>
     <div class="container">
     <?php echo $body; ?>
     <footer class="pt-4 my-md-5 pt-md-5 border-top">

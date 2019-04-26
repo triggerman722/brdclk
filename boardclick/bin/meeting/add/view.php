@@ -36,6 +36,6 @@ $body=<<<EOT
  </div>
  </div>
 EOT;
-}
 include($rd."util/base.php");
+}
 ?>

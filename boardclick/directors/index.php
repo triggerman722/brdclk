@@ -1,4 +1,6 @@
 <?php
+$rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
+require_once($rd."util/session_mgmt.php");
 $username=@$_REQUEST['u'];
 if ($username==null) {
     header('Location:/404');
