@@ -6,30 +6,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!--
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
     <title><?php echo $title; ?></title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="/">Boardkit</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="/boards">Boards</a></li>
-                <li class="nav-item"><a class="nav-link" href="/boards">Enterprise</a></li>
-                <li class="nav-item"><a class="nav-link" href="/boards">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boards">Features</a></li>
                 <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boards">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="/boards">Contact Us</a></li>
             </ul>
 <?php
 if (!isset($username)) {
 ?>
-                <a class="btn btn-outline-light mr-2" href="/join">Sign up</a>
+                <a class="btn btn-primary mr-2" href="/join">Start Your FREE Trial »</a>
                 <a class="btn btn-outline-light" href="/login">Login</a>
 <?php
 } else {
@@ -48,7 +48,8 @@ if (!isset($username)) {
             </ul>
         </div>
       </nav>
-    <div class="container">
+<?php if(isset($prebody)){echo $prebody;}?>
+    <div class="container mt-2">
     <?php echo $body; ?>
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
