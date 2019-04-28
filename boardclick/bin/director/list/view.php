@@ -1,15 +1,26 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $title="Welcome to the ".$board['name']." home!";
-    $boardid = basename($ld);
+    $title=$username."'s meetings";
+    $listitems = "<ul class=\"list-unstyled\">";
+    for($i=0;$i<count($list);$i++){
+        $item=<<<EOI
+<li class="media my-4">
+    <div class="media-body">
+{$list[$i]}
+    </div>
+  </li>
+EOI;
+        $listitems=$listitems.$item;
+    }
+    $listitems= $listitems."</ul>";
     $body=<<<EOT
  <div class="row">
  <div class="col-3">
   <div class="card">
-   <img class="card-img-top" src="{$board['photo_url']}">
+   <img class="card-img-top" src="">
    <div class="card-body">
-    <h5 class="card-title">{$board['name']}</h5>
-    <p class="card-text">{$board['description']}</p>
+    <h5 class="card-title">{$username}</h5>
+    <p class="card-text">{$username}</p>
    </div>
   </div>
 <div class="list-group mt-3">
@@ -18,28 +29,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Committees</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Chat</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Compensation</a>
-  <a href="/boards/{$boardid}/directors/" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Directors</a>
+  <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Directors</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Dividends</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Executives</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Goals</a>
-  <a href="/boards/{$boardid}/meetings/" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Meetings</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Options</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Proposals</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Resolutions</a>
-  <a href="/boards/{$boardid}/edit/" class="list-group-item list-group-item-action"><i class="fa fa-gear"></i> Settings</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Votes</a>
 </div>
  </div>
  <div class="col-6">
-
+{$listitems}
 </div>
  <div class="col-3">
-   <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-   </div>
+   <a href="/boards/{$boardid}/directors/add" class="btn btn-primary">Add</a>
  </div>
  </div>
 

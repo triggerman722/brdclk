@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $board['board_id'] = $nextdir;
     $board['name'] = $_REQUEST['name'];
     $board['description'] = $_REQUEST['description'];
-    $board['isprivate'] = false;
+    $board['isprivate'] = !empty($_REQUEST['isprivate']);
     $board['photo_url'] = "/boards/".$nextdir."/rain.jpg";
 
     file_put_contents($ld."/".$nextdir."/board.json", json_encode($board));

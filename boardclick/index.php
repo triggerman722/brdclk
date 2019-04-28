@@ -5,7 +5,7 @@ $prebody=<<<EOT
 <div class="row pt-5 pb-3" style="background-color:#00000080;">
     <div class="container py-5 text-center">
       <h1 class="display-2 text-light">Board Rocket Fuel</h1>
-      <h3 class="text-light">Boardkit enables meaningful collaboration in all of your Board operations.</h3>
+      <h3 class="text-light">Boardway enables meaningful collaboration in all your Board operations.</h3>
       <p class="pt-2"><a class="btn btn-primary btn-lg" href="#" role="button">Start Your FREE Trial »</a></p>
     </div>
   </div>

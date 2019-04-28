@@ -20,6 +20,17 @@ $body=<<<EOT
       <textarea class="form-control" id="inputDescription" name="description" rows="3"></textarea>
     </div>
   </div>
+  <div class="form-group row">
+    <div class="col-sm-2">Private?</div>
+    <div class="col-sm-10">
+<div class="form-check">
+        <input class="form-check-input" type="checkbox" id="inputPrivate" name="isprivate">
+        <label class="form-check-label" for="inputPrivate">
+          Private boards cost $7 per month. 
+        </label>
+      </div>
+    </div>
+  </div>
  <div class="form-group row">
     <div class="col-sm-12 d-flex justify-content-between ">
       <button type="submit" class="btn btn-primary">Add</button>
