@@ -1,6 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $title=$username."'s meetings";
+if (count($list)>0) {
     $listitems = "<ul class=\"list-unstyled\">";
     for($i=0;$i<count($list);$i++){
         $item=<<<EOI
@@ -15,6 +16,16 @@ EOI;
         $listitems=$listitems.$item;
     }
     $listitems= $listitems."</ul>";
+} else {
+$listitems=<<<EOI
+<div class="text-center mt-5">
+<h1 class="text-muted mt-5">No meetings found.</h1>
+
+<a href="/boards/$boardid/meetings/add" class="mt-4 btn btn-primary">Add a meeting</a>
+</div>
+EOI;
+}
+
     $body=<<<EOT
  <div class="row">
  <div class="col-3">
@@ -45,12 +56,8 @@ EOI;
 {$listitems}
 </div>
  <div class="col-3">
-   <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-   </div>
+<a href="/boards/$boardid/meetings/add" class="btn btn-primary">Add a Meeting</a>
+
  </div>
  </div>
 

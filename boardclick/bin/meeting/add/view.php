@@ -27,7 +27,7 @@ $body=<<<EOT
     <div class="col-sm-10">
 <label class="form-control pb-5">
 <div class="row pl-2 mt-2">
-<span class="pr-2">Drag or browse file files:</span><input type="file" class="pb-5" id="customFile" name="attachments[]" multiple>
+<span class="pr-2">Select files: </span><input type="file" class="pb-5" id="customFile" name="attachments[]" multiple>
 </div>
 </label>
     </div>

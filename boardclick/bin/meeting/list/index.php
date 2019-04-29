@@ -3,6 +3,7 @@ $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
 require_once($rd."util/session_mgmt.php");
 require_once($rd."util/isdirector.php");
 $ld = getcwd();
+$boardid = basename(dirname($ld, 1));
 
 $list = array();
 $dirs = scandir($ld);
