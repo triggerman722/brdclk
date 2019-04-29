@@ -16,7 +16,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $directors[] = $username;
     file_put_contents($ld."/".$nextdir."/directors.json", json_encode($directors));
 
-    header('Location: ../meetings/'.$nextdir);
+$total = count($_FILES['attachments']['name']);
+for( $i=0 ; $i < $total ; $i++ ) {
+  $tmpFilePath = $_FILES['attachments']['tmp_name'][$i];
+  if ($tmpFilePath != ""){
+    $newFilePath = $ld."/".$nextdir."/attachments/" . $_FILES['attachments']['name'][$i];
+    if(move_uploaded_file($tmpFilePath, $newFilePath)) {
+
+      //Handle other code here
+print $_FILES['attachments']['name'][$i];
+    }
+  }
+}
+//    header('Location: ../meetings/'.$nextdir);
 }
 
 ?>
