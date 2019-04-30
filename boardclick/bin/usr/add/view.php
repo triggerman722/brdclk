@@ -1,10 +1,10 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 $title="Join";
 $body=<<<EOT
 <div class="row">
  <div class="col-6 offset-3">
-
-<form action="/join" method="post">
+<form method="post">
   <div class="form-group row">
     <label for="inputUserName" class="col-sm-2 col-form-label">Username</label>
     <div class="col-sm-10">
@@ -29,10 +29,9 @@ $body=<<<EOT
     </div>
   </div>
 </form>
-
 </div>
 </div>
 EOT;
-require_once($_SERVER['DOCUMENT_ROOT']."/bin/util/base.php");
-
+include($rd."util/base.php");
+}
 ?>
