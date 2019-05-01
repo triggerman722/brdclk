@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $title="Welcome to the ".$meeting['name']." home!";
+    $title="Welcome to ".$profile['username']."'s home!";
     $body=<<<EOT
  <div class="row">
  <div class="col-3">
@@ -8,23 +8,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
  <div class="col-6">
 
 <form method="post" enctype="multipart/form-data">
+  <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
   <div class="form-group row">
     <label for="inputName" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputName" name="name" value="{$meeting['name']}">
+      <input type="text" class="form-control" id="inputName" name="name" value="{$profile['username']}">
     </div>
   </div>
   <div class="form-group row">
     <label for="inputDescription" class="col-sm-2 col-form-label">Description</label>
     <div class="col-sm-10">
-      <textarea class="form-control" id="inputDescription" name="description" rows="3">{$meeting['description']}</textarea>
+      <textarea class="form-control" id="inputDescription" name="description" rows="3">{$profile['description']}</textarea>
     </div>
   </div>
   <div class="form-group row">
     <label for="inputDescription" class="col-sm-2 col-form-label">Photo</label>
     <div class="col-sm-10">
-      <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
-      <input type="file" name="photo">
+      <div class="custom-file">
+         <input type="file" class="custom-file-input" id="customFile" name="photo">
+         <label class="custom-file-label" for="customFile">Choose file</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputDescription" class="col-sm-2 col-form-label">Banner</label>
+    <div class="col-sm-10">
+      <div class="custom-file">
+         <input type="file" class="custom-file-input" id="customFile" name="banner">
+         <label class="custom-file-label" for="customFile">Choose file</label>
+      </div>
     </div>
   </div>
 

@@ -38,7 +38,9 @@ if (!isset($username)) {
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 <?php echo $username; ?>
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="/usr/<?php echo $username; ?>">Profile</a>
+    <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="/logout">Logout</a>
   </div>
 </div>
