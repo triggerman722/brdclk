@@ -1,6 +1,5 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
-require_once($rd."util/session_mgmt.php");
 require_once($rd."util/recursecopy.php");
 
 chdir('../usr');
