@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   <div class="card">
    <img class="card-img-top" src="{$profile['banner_url']}">
    <div class="card-body">
-    <img src="/img/clear.png" class="img-thumbnail rounded-circle" style="background-image:url({$profile['photo_url']});background-size:cover;margin-top:-50px;width:64px;height:64px;">
+    <img src="/resources/img/clear.png" class="img-thumbnail rounded-circle" style="background-image:url({$profile['photo_url']});background-size:cover;margin-top:-50px;width:64px;height:64px;">
     <h5 class="card-title">{$profile['username']}</h5>
     <p class="card-text">{$profile['description']}</p>
    </div>

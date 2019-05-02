@@ -2,7 +2,41 @@
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $title="Welcome to the ".$board['name']." home!";
     $boardid = basename($ld);
-    $body=<<<EOT
+
+if (count($directors)>0) {
+    $listitems = "<ul class=\"list-unstyled\">";
+    for($i=0;$i<count($directors);$i++){
+        $usr = json_decode(file_get_contents($ud.$directors[$i]["username"]."/profile.json"),true);
+        $roles="";
+        for($y=0;$y<count($directors[$i]["roles"]);$y++) {
+            $role=$directors[$i]["roles"][$y];
+            $roles.=<<<EOT
+<span class="badge badge-info mr-1">{$role}</span>
+EOT;
+        }
+        $item=<<<EOI
+<li class="media my-4">
+    <img src="{$usr["photo_url"]}" class="rounded-circle mr-3" width="48px" height="48px" alt="{$usr["username"]}">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1"><a href="/usr/{$usr["username"]}">{$usr["username"]}</a></h5>
+{$usr["description"]}
+<p>{$roles}</p>
+    </div>
+  </li>
+EOI;
+        $listitems=$listitems.$item;
+        $listitems= $listitems."</ul>";
+    }
+} else {
+$listitems=<<<EOI
+<div class="text-center mt-5">
+<h1 class="text-muted mt-5">No directors found.</h1>
+
+<a href="/boards/add" class="mt-4 btn btn-primary">Add a Director</a>
+</div>
+EOI;
+}
+$body=<<<EOT
  <div class="row">
  <div class="col-3">
   <div class="card">
@@ -31,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 </div>
  </div>
  <div class="col-6">
-
+{$listitems}
 </div>
  <div class="col-3">
    <div class="alert alert-warning alert-dismissible fade show" role="alert">

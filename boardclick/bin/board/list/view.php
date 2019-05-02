@@ -14,6 +14,7 @@ if (count($list)>0) {
   </li>
 EOI;
         $listitems=$listitems.$item;
+        $listitems= $listitems."</ul>";
     }
 } else {
 $listitems=<<<EOI
@@ -24,8 +25,7 @@ $listitems=<<<EOI
 </div>
 EOI;
 }
-    $listitems= $listitems."</ul>";
-    $body=<<<EOT
+$body=<<<EOT
  <div class="row">
  <div class="col-3">
   <div class="card">

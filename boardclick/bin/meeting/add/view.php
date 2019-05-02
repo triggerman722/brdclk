@@ -7,8 +7,6 @@ $body=<<<EOT
  </div>
  <div class="col-6">
 
-
-
 <form method="post" id="form" enctype="multipart/form-data">
   <div class="form-group row">
     <label for="inputName" class="col-sm-2 col-form-label">Name</label>
@@ -42,7 +40,7 @@ $body=<<<EOT
 
 </form>
 
-<script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+<script src="/resources/js/nicEdit-latest.js" type="text/javascript"></script>
 <style>
 .nicEdit-panelContain, .nicEdit-button-undefined {
 
@@ -54,7 +52,7 @@ border:0px solid white !important;
 }
 </style>
  <script type="text/javascript">
-new nicEditor({iconsPath : '/img/nicEditorIcons.gif', buttonList : ['fontSize','bold','italic','underline','left', 'center','right','justify','ul', 'ol','indent','outdent','hr','forecolor','backcolor']}).panelInstance('inputDescription');
+new nicEditor({iconsPath : '/resources/img/nicEditorIcons.gif', buttonList : ['fontSize','bold','italic','underline','left', 'center','right','justify','ul', 'ol','indent','outdent','hr','forecolor','backcolor']}).panelInstance('inputDescription');
 
 </script>
 </div>

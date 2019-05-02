@@ -2,7 +2,7 @@
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $username=$_REQUEST['username'];
+    $username=strtolower(@$_REQUEST['username']);
     $email=$_REQUEST['email'];
     $password=$_REQUEST['password'];
 

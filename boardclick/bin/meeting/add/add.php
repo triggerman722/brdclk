@@ -13,7 +13,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $meeting['photo_url'] = "/boards/".$boardid."/meetings/".$nextdir."/rain.jpg";
     file_put_contents($ld."/".$nextdir."/meeting.json", json_encode($meeting));
     $directors = array();
-    $directors[] = $username;
+    $director = array();
+    $director['username'] = $username;
+    $roles = array();
+    $roles[]='ROLE_DIRECTOR';
+    $director['roles'] = $roles;
+    $directors[] = $director;
     file_put_contents($ld."/".$nextdir."/directors.json", json_encode($directors));
 
 $total = count($_FILES['attachments']['name']);
@@ -24,11 +29,11 @@ for( $i=0 ; $i < $total ; $i++ ) {
     if(move_uploaded_file($tmpFilePath, $newFilePath)) {
 
       //Handle other code here
-print $_FILES['attachments']['name'][$i];
+//print $_FILES['attachments']['name'][$i];
     }
   }
 }
-//    header('Location: ../meetings/'.$nextdir);
+    header('Location: ../meetings/'.$nextdir);
 }
 
 ?>

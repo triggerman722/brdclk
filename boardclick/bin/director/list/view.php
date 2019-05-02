@@ -3,10 +3,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $title=$username."'s meetings";
     $listitems = "<ul class=\"list-unstyled\">";
     for($i=0;$i<count($list);$i++){
+        $usr = json_decode(file_get_contents($ud.$list[$i]["username"]."/profile.json"),true);
+        $roles="";
+        for($y=0;$y<count($list[$i]["roles"]);$y++) {
+            $role=$list[$i]["roles"][$y];
+            $roles.=<<<EOT
+<span class="badge badge-info mr-1">{$role}</span>
+EOT;
+        }
         $item=<<<EOI
 <li class="media my-4">
+    <img src="{$usr["photo_url"]}" class="rounded-circle mr-3" width="48px" height="48px" alt="{$usr["username"]}">
     <div class="media-body">
-{$list[$i]}
+      <h5 class="mt-0 mb-1"><a href="/usr/{$usr["username"]}">{$usr["username"]}</a></h5>
+{$usr["description"]}
+<p>{$roles}</p>
     </div>
   </li>
 EOI;

@@ -14,7 +14,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents($ld."/".$nextdir."/board.json", json_encode($board));
 
     $directors = array();
-    $directors[] = $username;
+    $director = array();
+    $director['username'] = $username;
+    $roles = array();
+    $roles[] = 'ROLE_CHAIRMAN';
+    $roles[] = 'ROLE_DIRECTOR';
+    $roles[] = 'ROLE_TREASURER';
+    $roles[] = 'ROLE_SECRETARY';
+    $roles[] = 'ROLE_COMMITTEE_LEAD';
+
+    $director['roles'] = $roles;
+    $directors[] = $director;
+
     file_put_contents($ld."/".$nextdir."/directors.json", json_encode($directors));
 
     header('Location: /boards/'.$nextdir.'/');
