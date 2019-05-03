@@ -47,7 +47,7 @@ $body=<<<EOT
    </div>
   </div>
 <div class="list-group mt-3">
-  <a href="dashboard" class="text-small list-group-item list-group-item-action"><i class="fa fa-home"></i> Dashboard</a>
+  <a href="/boards/{$boardid}" class="list-group-item list-group-item-action active"><i class="fa fa-home"></i> Dashboard</a>
   <a href="bylaws" class="list-group-item list-group-item-action"><i class="fa fa-file"></i> Bylaws</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Committees</a>
   <a href="committees" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Chat</a>
