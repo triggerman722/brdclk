@@ -1,0 +1,1712 @@
+1
+
+Uses a web-based document editor tool; if 
+yes describe the editor.
+
+2
+
+List fonts and sizes available within the 
+system.
+
+3
+
+Colour attachments and at least 256 
+shades of grey.
+
+4
+
+Maximum document length and file size 
+are stated.
+
+5
+
+Staff can translate documents into other 
+languages within the application.
+
+6
+
+The process for creating templates and 
+workflows is straightforward and can be 
+done by staff.
+
+7
+
+Ability to alert if more than one editor is 
+working on a particular document.
+
+8
+
+Ability to incorporate own municipal 
+website design into web templates.
+
+
+10
+
+Ability to create multiple templates per 
+municipality/organization. Specify if there is 
+a maximum number.
+
+11
+
+Method to redact personal information.
+
+12
+
+Macros within templates.
+
+13
+
+Documents have properties such as 
+authorship and document description 
+information.
+
+14
+
+Ability to create burn or blackout sections 
+in a scanned or system created document 
+and delete burned data.  Describe process.
+
+15
+
+Version control of documents and templates.
+
+16
+
+Ability to add watermarks to all documents.
+
+17
+
+Ability to output and input MSWord 
+templates for document creation or editing.
+
+18
+
+Can configure templates for items that the 
+staff need to track and report on.  Explain 
+how this can be achieved for staff 
+directions within published minutes and 
+also notifications that are outlined within 
+reports.
+
+19
+
+Documents created from templates can be 
+imported or exported for document creation 
+or editing.  Indicate how this is achieved.
+
+20
+
+21
+
+Report Creation
+
+Report templates within the application can 
+be easily configured  to accommodate the 
+sections of the report template that 
+municipalities/organizations currently utilizes. 
+Describe how.
+Reports or attachments marked as 
+confidential cannot be published to the web.
+
+
+
+22
+
+Documents marked as confidential cannot 
+be viewed unless permissions exist for the 
+user log-on.
+
+23
+
+Ability to attach documents to reports and 
+carry report numbers to the attached 
+document (e.g. appendices items received 
+at meetings).
+
+24
+
+Application can identify and notify author 
+of 'track changes' in the document.
+
+25
+
+Ability to limit the selection of meetings for 
+the report author based on configured 
+submission timelines in the application.
+
+26
+
+Ability for the clerk's or administration 
+offices to override configured submission 
+timelines in the application.
+
+27
+
+Able to identify where on workflow an item 
+is.
+
+28
+
+Enable confidential reports.
+
+29
+
+Report creation process is Windows 
+compatible.
+
+30
+
+Ability to link to previous reports on 
+same/similar subject matter.
+
+31
+
+Audit trail along workflow of who did what.
+
+32
+
+Sync notes and annotations to server.
+
+33
+
+Agenda and 
+Addendum Creation
+
+The ability to add delegation documents to 
+the agenda and route through management 
+approval process.  How are these 
+documents assigned records numbers for 
+receiving and filing?
+
+34
+
+Ability to create a meeting addendum 
+package after an agenda has been 
+packaged and printed.
+
+35
+
+Ability to create draft agendas and final 
+agendas.
+
+36
+
+Ability to create an agenda without reports 
+(e.g. a meeting with only presentations).
+
+37
+
+Ability to populate the agenda with the 
+following from the source documents (e.g. 
+report):
+
+38
+
+a.  Report title and number
+
+39
+
+b.  Report recommendations
+
+40
+
+c.  Delegations
+
+41
+
+d.  Consent items
+
+42
+
+e.  Presentations
+
+43
+
+f.  Items for discussion (regular agenda)
+
+44
+
+g.  Closed Meeting Matters
+
+45
+
+Ability to make changes to an agenda 
+package even after it has been compiled 
+for printing and published to the web.
+
+46
+
+Report can be moved from one meeting 
+agenda to another easily maintaining 
+signatures and approvals.
+
+47
+
+Link agenda items to associated documents.
+
+
+49
+
+Agenda/Minute items must link to 
+supporting documents.
+
+50
+
+Document hyperlinks created once - can 
+deploy to any publishing platform.
+
+51
+
+Ability to engage citizens on items and 
+manage the info from the engagement.
+
+
+53
+
+Auto create the relevant documents - via 
+flow through the process.
+
+54
+
+Minutes Creation 
+and Memeting 
+Management
+
+Assemble the minutes based on template 
+sections.
+
+55
+
+Ability for members of Council to select 
+and record their votes with results of the 
+vote automatically recorded in the minutes.
+
+56
+
+Ability to record staff directions in minutes.
+
+57
+
+Ability to document staff or council 
+members comments in the minutes 
+template.
+
+58
+
+Minutes template sections can be 
+configured to standardize font (size bold 
+italics all caps) for each section.
+
+59
+
+Voting - Yes / No / Abstain due to conflict
+
+60
+
+Handle multiple speakers lists.
+
+61
+
+Display of delegation presentations.
+
+62
+
+Customizable interface for content 
+displayed on public screens.
+
+63
+
+Tablet (iPad Android etc.) thin client 
+compatible
+
+64
+
+Split screen - list of speakers and show 
+timer and presentation.
+
+65
+
+Participant has the ability to:
+
+66
+
+a.   Request to Speak
+
+67
+
+b.   Point of Order
+
+68
+
+c.   Point of Privilege
+
+69
+
+Clerk can override control / adjust orders.
+
+70
+
+Ability to queue up delegation from various 
+sources (i.e. USB URL).
+
+71
+
+Ability to name and save individual vote 
+results is required.
+
+72
+
+Ability to register councillors as present in 
+the voting system to permit them to 
+participate in voting and speakers lists.
+
+73
+
+Ability to vote and change vote until timeout period ends.
+
+74
+
+Ability to count abstain (present but not 
+voted) as a NO vote.
+
+75
+
+Ability to disable Chairperson's voting 
+buttons during Council unless a tie.  Active 
+during Committee meetings.
+
+76
+
+Ability to remove members from voting list 
+if a conflict of interest.
+
+77
+
+Voting results can be displayed on screen.
+
+78
+
+Ability to manage multiple speakers lists 
+(including Requests to Speak Points of 
+Order and Points of Privilege).
+
+79
+
+Provides delegation management
+
+80
+81
+
+Ability to create a delegate list.
+Notifications 
+Dispositions Staff 
+Directions and ByLaws (Reports 
+indicate when 
+notifications are to 
+be sent to third 
+parties.  This can 
+occur for many 
+reasons including 
+but not limited to 
+approval of tender 
+awards or planning 
+related changes.  
+Staff d
+
+Solution provides a method at committee 
+and council meetings to be able to handle 
+dispositions on reports amendments 
+motions and staff directions.
+
+82
+
+Describe the ability to create and report on 
+staff directions:
+
+83
+
+a.   Change and amend.
+
+84
+
+b.   Send notifications to departments 
+when staff directions are carried at council 
+meetings.
+
+85
+
+c.   Status of completion is applied to the 
+staff direction when the report is ratified at 
+council.
+
+86
+
+d.   Ability to generate reports on staff 
+directions for applications users.
+
+87
+
+e.   Report on performance measurements 
+on staff directions including but not limited 
+to the length of time it takes for staff 
+directions to close and report on 
+outstanding or overdue directions.
+
+88
+
+Give details as to how this process is 
+managed.  What types of data do you 
+capture in this process?
+
+89
+
+Ability to configure report templates to 
+contain notifications.  Once ratified at 
+council there is an ability to easily 
+generate notifications based on information 
+in the report (email letter merge).  
+
+90
+
+Ability to record changes to the minutes 
+during the meeting to reflect new motions 
+or staff directions.
+
+91
+
+Describe the process for creating By-law 
+and policy templates and sequence 
+numbering.
+
+92
+
+Publication
+
+Ability to attach unlimited documents to a 
+report/agenda/minutes prior to or after 
+committee and council.
+
+93
+
+Ability to assemble a confidential package 
+separate from the regular agenda and 
+minutes.
+
+94
+
+Ability to create agenda covers based on 
+the agenda information:
+
+95
+
+a.  Auto generate document elements
+
+96
+
+b.  Table of Contents
+
+97
+
+c.  Auto page numbers
+
+98
+
+Supports post edit document reassembly.
+
+99
+
+Create individualized agendas with unique 
+watermarks.
+
+100
+
+Automatic file naming with naming options 
+and macro scripts.
+
+101
+
+Functionality to assemble an unlimited 
+number of source documents into one 
+document/agenda.
+
+102
+
+Able to support attachments and 
+conversion to PDF package of the following 
+file types:
+
+103
+
+a.  MS Office productivity suit
+
+104
+
+b.  GIF
+
+105
+
+c.  JPG
+
+106
+
+d.  TIFF
+
+107
+
+e.  DWG
+
+108
+
+f.  PDF
+
+109
+
+g.  PNG
+
+110
+
+h.  List others supported
+
+111
+
+Output assembled document to web in 
+HTML and PDF with fully text searchable 
+and create metadata tags using report 
+fields.
+
+112
+
+Specially marked pages not published 
+unless specified (e.g. confidential 
+appendices and reports.)
+
+113
+
+Ability to create a paperless agenda and 
+push to individuals or a group via email.
+
+114
+
+News reporters and press have access to 
+agendas presentations delegation materials 
+and reports etc.
+
+115
+
+Public (resident) access to agendas 
+presentations delegation materials and 
+reports etc.
+
+116
+
+Meets transparency and open government 
+requirements by having a method to 
+publish data via API or other means to 
+populate an open data catalog.
+
+117
+
+Ability to create a full downloadable or 
+printable copy.
+
+118
+
+Able to set up right hand or left hand 
+page start during assembly.
+
+119
+
+Document Storage 
+and Retrieval
+
+Capability to search for stored documents.
+
+120
+
+Ability to hide confidential documents from 
+users.
+
+121
+
+Describe how the system's archival of 
+records process supports Records Retention 
+By-laws.
+
+122
+
+Searching capability for application users:
+
+123
+
+a.  Smart search - including advanced 
+search using document properties such as 
+report number name author and full text 
+search
+
+124
+
+b.  Related word search
+
+125
+
+c.  Plain text
+
+126
+
+Describe the search capability for 
+documents published to the web.
+
+127
+
+Documents can be stored for several years 
+in solution.
+
+128
+
+Documents need to be able to integrate 
+with Electronic Content Management 
+Solution.
+
+129
+
+Capacity to provide permanent retention.
+
+130
+
+Ability to delete records.
+
+131
+
+Ability to define the stored report structure.
+
+132
+
+Archive/offline storage functionality.
+
+133
+
+Does the system currently interface with 
+Laserfiche?
+
+134
+
+Classification can be auto assigned.
+
+135
+
+Solution supports search
+
+136
+
+Solution provides Audit/Activity Log
+
+137
+
+Workflow/Approvals How does the system notify users of items 
+ -Report Author 
+pending (Windows log-in MSOutlook 
+Workflow
+notification)?
+
+138
+
+Solution provides an audit log of all 
+changes to the document once the 
+document is released by the author.
+
+139
+
+Automatic escalations and notification of 
+overdue reports/documents.
+
+140
+
+If original meeting date for the report is 
+changed the report author is sent a 
+notification.
+
+141
+
+Report author can define who or which 
+group can view the report while in draft 
+format.
+
+142
+
+Report author can add additional people to 
+the default approval list.
+
+143
+
+Report author is sent notification when 
+they have received approval from each 
+level including final approval.
+
+144
+
+145
+
+Workflow/Approvals If an item is approved pulled or rejected 
+ - Clerk Workflow
+by one of the approvers notification is sent 
+to the designate (approver author clerk).
+Ability to auto-create a deadline for 
+agenda item submission and approval.  If 
+yes describe.
+
+146
+
+Report author approver and clerk are able 
+to see where a report is in the approval 
+line.
+
+147
+
+Ability to record meeting attendance with 
+an option to select attendance from a list.
+
+148
+
+Ability to record motions who made motion 
+and votes in the minutes template.
+
+149
+
+Workflow/Approvals Approvers can approve reject or move 
+ - Approver 
+forward documents.
+Workflow
+
+150
+
+Ability to configure system on how to treat 
+rejected items in the approval route.  (e.g. 
+If the top approver rejects the item all 
+other approvals are removed or once 
+amended the item only has to go back to 
+the top.)
+
+151
+
+Comments can be added to the document 
+(outside of the document) with the ability 
+for authors and approvers to make and 
+view all comments.
+
+152
+
+Approver can change the status of their 
+approval selection at any time prior to 
+agenda assembly.
+
+153
+
+Application prevents an operation of 
+functions in an improper sequence.
+
+154
+
+Ability to send notification of agendas and 
+supporting documentation to specific users 
+for approval.
+
+155
+
+Approval routes can be made specific to 
+departments or groups or individuals.
+
+156
+
+Approvers can approve items in batches.
+
+157
+
+Ability to assign and reassign approvals for 
+agendas (e.g. approver can reassign to a 
+designate when approver is out of the 
+office.).
+
+158
+
+Web 
+Casting/Streaming
+
+Ability to capture video formats H.264 and 
+alternates for mobile devices.
+
+159
+
+Index the video against the published 
+agenda items either during or after 
+meetings.
+
+160
+
+Documents are linked to the agenda and 
+only displayed when selected when viewing 
+web cast.
+
+161
+
+Ability to pause web cast videos during 
+taping to allow for recesses or closed 
+sessions.
+
+162
+
+Video output can be viewed on tabloits or 
+mobile device.  Please specify.
+
+163
+
+Link to certain parts of video - create the 
+link for example councillor wishes to insert 
+a link where he/she was speaking.
+
+164
+
+Webstreaming platform compatible with our 
+existing systems.
+
+165
+
+Easy to navigate webstreamed content that 
+is live in real time.
+
+166
+
+Access to archived webstreamed content.
+
+167
+
+Closed Captioning support.
+
+168
+169
+
+Video output in a mobile friendly format.
+Web Features
+
+Describe the system calendar of meetings 
+in relationship to the following:
+
+170
+
+a. Ability to add the annual calendar of 
+meeting dates in the system and publish 
+to the web.
+
+171
+
+b. Calendar can be edited in the 
+application and published to the web 
+automatically.
+
+172
+
+c. Ability to add multi-year calendar of 
+meetings to the application and publish to 
+the web.
+
+173
+
+Ability to print agendas minutes and 
+calendars that are posted on the web.
+
+174
+
+User can define which report council or 
+committee to search.
+
+175
+
+Ability to email search results document.
+
+176
+
+Ability to print the search results page.
+
+177
+
+Present agendas minutes and supporting 
+documents in a user-friendly manner.
+
+178
+
+Page titles reflect content of page.
+
+179
+
+Agendas minutes and reports provided in 
+HTML format.
+
+180
+
+Agendas minutes and reports can be 
+provided as PDFs
+
+181
+
+Able to track use through various metrics 
+and web analytics (metrics).
+
+182
+
+Ability to pull out the information and 
+publish onto our website in a user-friendly 
+manner.
+
+183
+
+Ability to publish council documents in 
+multiple locations if necessary (i.e. 
+intranet/web).
+
+184
+
+Documents can be scanned by external 
+search engines.
+
+185
+
+Confidential documents not posted 
+externally in publically accessible manner.
+
+186
+
+Confirm WCAG 2.0 accessibility compliance.
+
+187
+
+Meet accessibility requirements (including 
+usability)
+
+188
+
+Alternate text on images.
+
+189
+
+Ability to enlarge fonts.
+
+190
+
+Able to delay posting on external website 
+after posting on internal website for 
+prescribed number of days.
+
+191
+
+XML or JSON feed for all content.
+
+192
+
+Current HTML structure not tables.
+
+193
+
+HTML5 with multiple fallbacks accessible 
+on different devices.
+
+194
+
+File size accompanies document size on 
+download screen.
+
+195
+
+File Metadata - title/description on all 
+documents - including originals for packet.
+
+196
+
+Hyperlinks within packets.
+
+197
+
+User-friendly packet file names on 
+download.
+
+198
+
+Consistent document LINK naming standards.
+
+199
+
+Customizable templates.
+
+200
+
+Documents published have populated 
+document properties.
+
+201
+
+Individual display customizations.
+
+202
+
+Reporting - 
+Standard 
+Reporting/Data 
+Extracts
+
+Provide a copy of your standard reports as 
+part of your submission.
+
+203
+
+Indicate if the following standard reports 
+are provided for within the application:
+
+204
+
+a.  Records Management Report
+
+205
+
+b.  User audit reports (changes to 
+documents by users).
+
+206
+
+c.  Agenda items and their status for a 
+specified date range.
+
+207
+
+Provide a list with description of your 
+standard data extracts as part of the 
+submission.
+
+208
+
+Does the solution have the ability to email 
+standard reports to designated staff? 
+Identify the method.
+
+209
+
+What matrices reporting do you deliver 
+with the application?  Provide samples of 
+these.
+
+210
+
+Report numbers are department specific.  
+Indicate how the application keeps track of 
+these and can automatically issue report 
+numbers based on the employee's 
+department it is originating from.
+
+211
+
+Reporting - Adhoc 
+Reporting/Data 
+Extract Features
+
+The solution allows the report data to be 
+viewed visually - charts graphs etc.
+
+212
+
+The solution allows staff to easily build 
+and run reports to track the timing at each 
+stage within the meeting process.
+
+213
+
+The solution allows staff to create reports 
+as needed.
+
+214
+
+The solution allow for the export of data 
+into MS Excel or MSWord where 
+appropriate.
+
+215
+
+Is there any other export file format 
+supported?  If so what are they?
+
+216
+
+The solution allows staff to choose the 
+information (fields) to be reported on?  Are 
+all fields available within the tool for 
+reporting / extract?  If not what is 
+available?
+
+217
+
+Database structure training is provided for 
+staff that will be creating adhoc reports.
+
+Schedule 2 - System Features
+Please indicate by selecting "Yes" or "No" in Column 1 if your solution meets the "Desired Functionality", as described in the Description column. If
+your solution partially meets the Desired Functionality, indicate a "No" response in Column 1 and "Yes" in Column 2 and provide comments in
+Column 3 describing how it partially meets the Desired Functionality. A response is required in Column 1 for every question or your bid will not be
+able to be submitted.
+
+Line
+Features
+Item
+
+Description
+
+1
+
+Electronic  Does the solution support 
+Signatures the use of an electronic 
+signature?
+
+2
+
+The solution ensures that 
+the electronic signatures 
+are unique to the person 
+making the signature.
+
+3
+
+The solution ensures that 
+the signature is under the 
+sole control of the person 
+making the signature.
+
+4
+
+The solution can be used 
+to identify the person 
+using the electronic 
+signature.
+
+Column 1 - Indicate Your
+Response to Desired
+Functionality *
+
+Column 2 - If "No" to
+Desired Functionality,
+Column 3 - If "Yes" to Partially Meets Functionality,
+indicate if
+Provide Comment
+functionality "Partially
+Meets" Expectations
+
+5
+
+Indicate how the electronic 
+signature can be linked 
+with an electronic 
+document in such a way 
+that it can be used to 
+determine whether the 
+electronic document has 
+been changed since the 
+electronic signature was 
+incorporated in attached to 
+or associated with the 
+electronic document.
+
+6
+
+The integrity of the 
+electronic signature is 
+maintained during the work 
+flow process for report or 
+agenda approvals.
+
+7
+
+Electronic signatures are 
+applied or removed 
+according to the work flow 
+configuration.
+
+8
+
+Role 
+Based 
+Security
+
+Does the solution support 
+user and administrator 
+access roles?  If so 
+provide information on the 
+role-based security 
+included within the tool.
+
+9
+
+Each 
+municipality/organization 
+will have several roles 
+involved with the council 
+process.  The solution 
+must be able to support 
+these multiple roles.  
+Describe the supported 
+roles and give a brief 
+overview of their access?
+
+10
+
+Ability to create and 
+manage administrative 
+workgroups.
+
+11
+
+Solution provides ability to 
+assign work to different 
+groups and maintain listing 
+of assignments.
+
+12
+
+Application Annotate reports/bookmark.
+ Access
+
+13
+
+Paperless option.
+
+14
+
+Option to print on demand.
+
+15
+
+Councillors receive reports 
+prior to public.
+
+16
+
+Are there any browser 
+specific settings that need 
+to be either enabled or 
+disabled?
+
+17
+
+Are there any browser plugins required?
+
+18
+
+In addition to the browser 
+are there any other client 
+applications required to 
+utilize all features of the 
+proposed solution?
+
+19
+
+Are there any known 
+firewall issues or specific 
+firewall rules that need to 
+be configured to support 
+your proposed solution?
+
+20
+
+What are the Internet 
+bandwidth characteristics 
+and bandwidth 
+requirements of your 
+proposed solution?
+
+21
+
+Indicate versions supported 
+for the following browsers:
+
+22
+
+a.   Internet Explorer
+
+23
+
+b.   Firefox
+
+24
+
+c.   Safari
+
+25
+
+d.   Chrome
+
+26
+
+e.   Other indicate browser 
+and version supported.
+
+27
+
+Does your solution have 
+an Application that is 
+compatible with the 
+following mobile devices:
+
+28
+
+a.   Blackberry phone / 
+Surface
+
+29
+
+b.   Apple iPhone / iPad
+
+30
+
+c.   Android
+
+31
+
+d.   Other please indicate 
+the device.
+
+32
+
+Provide an overview of the 
+features available on the 
+mobile application including 
+but not limited to:
+
+33
+
+a.   Ability for users to 
+make notes against 
+published agenda items for 
+meetings.
+
+34
+
+b.   Ability to highlight key 
+points within the published 
+agenda/minutes.
+
+35
+
+c.   Ability to print key 
+sections of the agenda.
+
+36
+
+d.   Ability to view 
+included attachments.
+
+37
+
+e.   Other.
+
+38
+
+Ability to voice annotate 
+reports.
+
+39
+
+Security 
+Encryption:  Encryption 
+Compliance standards are in place to 
+ensure data at rest and in 
+motion are secure.  
+Describe the method.
+
+40
+
+Transaction Privacy:  
+Provide a list of 
+cryptographic methods and 
+protocols used for each 
+stage of data entry and 
+storage.
+
+41
+
+Authorization: List controls 
+in place to limit actions 
+allowed on the code and 
+data (limit who can access 
+make changes to files / 
+data).
+
+42
+
+Security processes:  Are 
+security controls such as 
+separation of duties lease 
+privileges appropriate 
+background checks and 
+termination policies in 
+place in your organization?
+
+43
+
+Security awareness:  Are 
+processes / policies in 
+place in your organization 
+to ensure employees are 
+aware of appropriate 
+security rules and 
+responsibilities?  Elaborate 
+on the process undertaken 
+to ensure awareness.
+
+44
+
+Security Control Reviews:  
+Are reviews of internal 
+processes and controls 
+performed by recognized 
+third party external 
+agencies?  Elaborate on 
+what is reviewed and how 
+often.
+
+45
+
+Identification / 
+Authentication:  Are 
+processes in place to 
+uniquely identify users who 
+have access or to make 
+changes to code?
+
+46
+
+Auditing:  Are third party 
+audits performed on your 
+physical facility with 
+regards to security 
+processes and procedures 
+penetration testing on a 
+regular basis?  Are 
+remediation of deficiencies 
+put in place within a 
+reasonable amount of time?
+
+47
+
+Application code review 
+and testing:  Are 
+applications and their 
+updates put through 
+rigorous code review 
+processes to ensure 
+security and accuracy prior 
+to putting into production?  
+If security flaws are 
+discovered are they fixed 
+QA tested and distributed 
+promptly?
+
+48
+
+Secure Application 
+Development:  Do you 
+follow industry standard 
+guidelines for creating a 
+secure application (i.e. 
+OWASP for web 
+applications)?  If yes list 
+these.
+
+49
+
+Security 
+Compliance
+ - Hosted 
+Solution - 
+Responses
+ only 
+required 
+for those 
+solutions 
+that are 
+hosted at 
+the 
+vendor's 
+location
+
+System Monitoring:  
+Provide an outline of the 
+security related monitoring 
+and tracking processes in 
+place.  These should 
+include identification of 
+system anomalies and 
+abnormalities.
+
+50
+
+Virus Detection and 
+Eradication:  Describe how 
+the solution takes 
+advantage of up to date 
+industry standard malware 
+detecting/cleaning software 
+on all system components.
+
+51
+
+Intrusion 
+Detection/Prevention:  Are 
+IDS/IPS systems in use 
+using industry best 
+practices rules?  List 
+processes in place to 
+respond to generated 
+events.
+
+52
+
+Disaster Plan:  Do you 
+have a disaster plan to 
+provide business continuity 
+should a disaster occur 
+that renders access to 
+your facility unavailable?
+
+53
+
+Access to data media:  Is 
+physical access limited to 
+media containing County of 
+Essex or Municipal Partner 
+Entities' information?  
+Outline controls in place.
+
+54
+
+Data deletion:  When data 
+or media containing data is 
+to be disposed of is data 
+securely deleted?  Outline 
+your process for ensuring 
+that it is securely deleted.
+
+55
+
+Physical Facility:  Are 
+security measures in place 
+to safeguard client data?  
+Detail controls in place (i.e. 
+cameras guards access 
+badges biometric controls 
+environmental monitoring).
+
+56
+
+Data Distribution:  Outline 
+the locations where data 
+is to be stored (including 
+backups disaster sites etc.).
+
+57
+
+Access to network 
+equipment: Are security 
+measures in place to 
+prevent unauthorized 
+access to network 
+equipment?
+
+58
+
+Backups: Are backups of 
+client data performed on a 
+regular basis?
+
+59
+
+Manual processes:  Identify 
+any manual processes 
+involved in data handling.
+
+60
+
+Hardware Reliability:  Are 
+processes in place to 
+allow for periodic renewal 
+of hardware in order to 
+reduce the risk of loss of 
+service due to hardware 
+failure?
+
+61
+
+Server security:  Are 
+servers considered in 
+scope with the incumbent 
+system configured in such 
+a way that they meet 
+security best practices (i.e. 
+locked down so unused 
+processes/services are 
+disabled/deleted etc.)?  
+Give details of the 
+practices used.
+
+62
+
+Firewalls:  Are industry 
+standard firewalls in place 
+between the applications 
+network and any foreign 
+network?  Are they 
+configured appropriately to 
+allow only traffic required 
+by the application?
+
+63
+
+Incident Response:  Do 
+you have an incident 
+response plan?  Describe 
+the process undertaken to 
+notify a 
+municipality/organization of 
+a system breach or an 
+incident relating to the 
+loss of inadvertent release 
+of their data.
+
+64
+
+Solution integrates with 
+standard OS Office tools. 
+
+65
+
+Solution must work with 
+multiple browsers.
+
+66
+
+Solution uses responsive 
+design.
+
+67
+
+Solution must work with 
+our remote access VPN 
+and Firewall. (Documented 
+in Appendix A)
+
+68
+
+Solution to provide detailed 
+usage analytics.
+
+69
+
+Solution must provide 
+disaster recovery options.
+
+70
+
+Solution can be integrted 
+with SharePoint.
