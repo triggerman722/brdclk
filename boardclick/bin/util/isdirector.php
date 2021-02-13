@@ -2,7 +2,7 @@
 
 function isDirector($directors, $username) {
    foreach ($directors as $key => $value) {
-       if ($value===$username) {
+       if ($value["username"]===$username) {
            return true;
        }
    }

@@ -1,5 +1,6 @@
 <?php
 $rd = $_SERVER['DOCUMENT_ROOT']."/bin/";
+$ud = $_SERVER['DOCUMENT_ROOT']."/usr/";
 require_once($rd."util/session_mgmt.php");
 require_once($rd."util/isdirector.php");
 chdir('..');

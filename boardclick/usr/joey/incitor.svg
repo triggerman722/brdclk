@@ -1,0 +1,313 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" =2="0%">
+<stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+</linearGradient>
+<linearGradient id="banner_gradient" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" style="stop-color:#FCFF5D;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#F6931C;stop-opacity:1"/>
+</linearGradient>
+<linearGradient id="menu_gradient" x1="0%" y1="0%" x2="100%" =2="0%">
+<stop offset="0%" style="stop-color:#D4A036;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#AE711F;stop-opacity:1"/>
+</linearGradient>
+
+<linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="100%" =tyle="stop-color:rgb(229,229,229);stop-opacity:1"/>
+</linearGradient>
+
+<radialGradient id="sunburst" cx="50%" cy="75%" r="50%" =x="50%" fy="75%">
+<stop offset="0%" style="stop-color:rgb(200,200,200); =top-opacity:0"/>
+<stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:1"/>
+</radialGradient>
+
+
+<linearGradient id="bannergrad" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="100%" =tyle="stop-color:rgb(200,200,200);stop-opacity:1"/>
+</linearGradient>
+
+<linearGradient id="menugrad" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="50%" =tyle="stop-color:rgb(180,180,180);stop-opacity:1"/>
+<stop offset="51%" =tyle="stop-color:rgb(120,120,120);stop-opacity:1"/>
+<stop offset="100%" =tyle="stop-color:rgb(229,229,229);stop-opacity:1"/>
+</linearGradient>
+
+<linearGradient id="bannergrad2" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="50%" =tyle="stop-color:rgb(229,229,229);stop-opacity:1"/>
+<stop offset="51%" =tyle="stop-color:rgb(200,200,200);stop-opacity:1"/>
+<stop offset="100%" =tyle="stop-color:rgb(100,100,100);stop-opacity:1"/>
+</linearGradient>
+
+<linearGradient id="handlefillhilite" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#F97E2E;stop-opacity:1"/>
+
+</linearGradient>
+
+<linearGradient id="handlefill" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" =tyle="stop-color:rgb(255,255,255);stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#000000;stop-opacity:1"/>
+</linearGradient>
+
+<linearGradient id="borderfill" x1="0%" y1="0%" x2="0%" =2="100%">
+<stop offset="0%" style="stop-color:#222222;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#CCCCCC;stop-opacity:1"/>
+</linearGradient>
+
+<filter id="DropShadowFilter" filterUnits="objectBoundingBox" =="-50%" y="-50%" width="200%" height="200%">
+		<!--Copyright 1999 Adobe Systems. You may copy, modify, and distribute =his file, if you include this notice & do not charge for the =istribution. This file is provided "AS-IS" without warranties of any =ind, including any implied warranties.-->
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2" =esult="BlurAlpha"/>
+		<feOffset in="BlurAlpha" dx="4" dy="4" =esult="OffsetBlurAlpha"/>
+		<feMerge>
+			<feMergeNode in="OffsetBlurAlpha"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+</filter>
+
+</defs>
+<linearGradient id="gradient">
+      <stop class="begin" offset="0%"/>
+      <stop class="end" offset="100%"/>
+</linearGradient>
+<rect x="0" y="0" width="100%" height="100%" =tyle="fill:#808080" />
+<g transform="translate(196, 0) scale(1)"> 
+
+<g transform="translate(5, 5)"> 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+
+<!--<rect id="lefthandle" x="10" y="10" width="25" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" =ill-opacity="0.5"/>-->
+<image x="12" y="12" width="22" height="20" =link:href="rnb.png" fill-opacity="0.2"/>
+<g transform="translate(17,19) scale(.4)" >
+<circle cx="10" cy="10" r="40" fill="url(#sunburst)"  />
+<circle cx="10" cy="5" r="33" fill="url(#shine)" =ill-opacity="0.7"/>
+</g>
+
+<text id="lblHome" x="45" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Genre - R&amp;B</text>
+</g>
+
+<g transform="translate(20, 65)"> 
+<text id="lblTitle" x="12" y="0" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">Title:</text>
+<text id="lblArtist" x="9" y="15" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Artist:</text>
+<text id="lblPrice" x="12" y="30" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Price:</text>
+<text id="lblExpires" x="0" y="45" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Expires:</text>
+</g>
+
+<g transform="translate(65, 65)"> 
+<text id="lblTitle" x="0" y="0" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">All My</text>
+<text id="lblArtist" x="0" y="15" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Ashanti</text>
+<text id="lblPrice" x="0" y="30" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">$2.00</text>
+<text id="lblExpires" x="0" y="45" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">12 months</text>
+</g>
+<!--<g transform="translate(85, 110)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Buy</text>
+</g>-->
+
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Buy</text>
+</g>
+<g transform="translate(15, 5)"> 
+<polygon points="5,70 0,75 5,80" fill="#808080" />
+<polygon points="150,70 155,75 150,80" fill="#808080" />
+<polygon points="70,45 75,40 80,45" fill="#808080" />
+<polygon points="70,110 75,115 80,110" fill="#808080" />
+</g>
+
+</g>
+<g transform="translate(385, 0) scale(1)" > 
+
+<g transform="translate(5, 5)" > 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Search</text>
+</g>
+<!--
+<g transform="translate(85, 110)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Search</text>
+</g>
+-->
+
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Search</text>
+</g>
+
+<text id="lblSearch" x="20" y="60" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">Keyword:</text>
+<rect id="textbox" x="20" y="70" width="145" height="20" =ill="#000000" fill-opacity="0" stroke="black" stroke-width="1" =>
+</g>
+
+<g transform="translate(5, 0) scale(1)" > 
+
+<g transform="translate(5, 5)" > 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Caller Ring Trax</text>
+</g>
+
+<image x="50" y="55" width="80" height="50" =link:href="rnb.png" stroke="black" stroke-width="1" />
+<!--
+<g transform="translate(85, 110)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Select</text>
+</g>
+-->
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Select</text>
+</g>
+
+<g transform="translate(15, 5)"> 
+<polygon points="5,70 0,75 5,80" fill="#808080" />
+<polygon points="150,70 155,75 150,80" fill="#808080" />
+<polygon points="70,45 75,40 80,45" fill="#808080" />
+<polygon points="70,110 75,115 80,110" fill="#808080" />
+</g>
+
+<!--Row 2-->
+</g>
+<g transform="translate(0, 305)"> 
+<g transform="translate(5, 5)"> 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+
+<!--<rect id="lefthandle" x="10" y="10" width="25" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" =ill-opacity="0.5"/>-->
+<image x="12" y="12" width="22" height="20" =link:href="rnb.png" fill-opacity="0.2"/>
+<g transform="translate(17,19) scale(.4)" >
+<circle cx="10" cy="10" r="40" fill="url(#sunburst)"  />
+<circle cx="10" cy="5" r="33" fill="url(#shine)" =ill-opacity="0.7"/>
+</g>
+
+<text id="lblHome" x="45" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Genre - R&amp;B</text>
+</g>
+
+<g transform="translate(20, 65)"> 
+<text id="lblTitle" x="12" y="0" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">Title:</text>
+<text id="lblArtist" x="9" y="15" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Artist:</text>
+<text id="lblPrice" x="12" y="30" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Price:</text>
+<text id="lblExpires" x="0" y="45" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Expires:</text>
+</g>
+
+<g transform="translate(65, 65)"> 
+<text id="lblTitle" x="0" y="0" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">All My</text>
+<text id="lblArtist" x="0" y="15" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">Ashanti</text>
+<text id="lblPrice" x="0" y="30" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">$2.00</text>
+<text id="lblExpires" x="0" y="45" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:normal;=ext-rendering:optimizeSpeed;letter-spacing:.075em;">12 months</text>
+</g>
+
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Buy</text>
+</g>
+<g transform="translate(15, 5)"> 
+<polygon points="5,70 0,75 5,80" fill="#808080" />
+<polygon points="150,70 155,75 150,80" fill="#808080" />
+<polygon points="70,45 75,40 80,45" fill="#808080" />
+<polygon points="70,110 75,115 80,110" fill="#808080" />
+</g>
+
+</g>
+<g transform="translate(385, 0) scale(1)" > 
+
+<g transform="translate(5, 5)" > 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Search</text>
+</g>
+
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Search</text>
+</g>
+
+<text id="lblSearch" x="20" y="60" =tyle="fill:#808080;font-family:tahoma;font-size:10;font-weight:bold;te=t-rendering:optimizeSpeed;letter-spacing:.075em;">Keyword:</text>
+<rect id="textbox" x="20" y="70" width="145" height="20" =ill="#000000" fill-opacity="0" stroke="black" stroke-width="1" =>
+</g>
+
+<g transform="translate(5, 0) scale(1)" > 
+
+<g transform="translate(5, 5)" > 
+<rect id="news2" x="0" y="0" width="176" height="176" =tyle="fill:url(#bannergrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="banner" x="5" y="5" width="166" height="30" =tyle="fill:url(#menugrad)" rx="5" stroke="url(#borderfill)" =troke-width="1" />
+<rect id="label" x="10" y="10" width="156" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="159" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="162" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefill)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:10;font-weight:bold;text=rendering:optimizeSpeed;letter-spacing:.075em;">Caller Ring Trax</text>
+</g>
+
+<image x="50" y="55" width="80" height="50" =link:href="rnb.png" stroke="black" stroke-width="1" />
+<g transform="translate(85, 135)"> 
+<rect id="label" x="10" y="10" width="70" height="20" =ill="black" fill-opacity="0.5" />
+<rect id="handle1" x="73" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="handle2" x="76" y="15" width="2" height="10" =ill="white" fill-opacity="0.5" />
+<rect id="lefthandle" x="10" y="10" width="10" height="20" =ill="url(#handlefillhilite)" stroke="black" stroke-width="1" />
+<text id="lblHome" x="30" y="24" =tyle="fill:white;font-family:tahoma;font-size:8.5;font-weight:normal;t=xt-rendering:optimizeSpeed;letter-spacing:.075em;">Select</text>
+</g>
+
+<g transform="translate(15, 5)"> 
+<polygon points="5,70 0,75 5,80" fill="#808080" />
+<polygon points="150,70 155,75 150,80" fill="#808080" />
+<polygon points="70,45 75,40 80,45" fill="#808080" />
+<polygon points="70,110 75,115 80,110" fill="#808080" />
+</g>
+
+</g>
+</g>
+
+
+</svg>
+
